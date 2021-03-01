@@ -1,46 +1,74 @@
-# Getting Started with Create React App
+# Sindigraf Web
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![React version][react-badge] ![Typescript version][typescript-badge] ![Styled Components version][styled-components-badge] ![GitHub top language][github-top-language-badge] ![GitHub repo size][github-repo-size-badge] [![LinkedIn][linkedin-badge]](https://www.linkedin.com/in/gabriel-peres-bernes/)
 
-## Available Scripts
+Responsive website created with React and Typescript, to see it live access [Sindigraf](https://sindigraf.com.br).
 
-In the project directory, you can run:
+## Summary
 
-### `yarn start`
+  - [Getting Started](#-getting-started)
+  - [Deployment](#-deployment)
+  - [Built With](#-built-with)
+  - [Authors](#%EF%B8%8F-authors)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚦 Getting Started
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+These instructions will get you a copy of the project up and running on your local machine. See deployment for notes on how to deploy the project.
 
-### `yarn test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run this project is required to have [Node.js](https://nodejs.org/en/) installed, the instructions for installing it can be found on the Node's page.
 
-### `yarn build`
+You will also need a dependency manager, the main options are [NPM](https://www.npmjs.com/) which is installed with Node.js, or you can get [YARN](https://classic.yarnpkg.com/en/docs/install).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installing
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install the dependencies from `package.json`, open a terminal on the project root directory and run:
+```sh
+$ npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# or
 
-### `yarn eject`
+$ yarn
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To start the application, inside de project root directory run:
+```sh
+$ npm run start
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# or
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+$ yarn start
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## 🔝 Deployment
 
-## Learn More
+To deploy this aplication, open a terminal on the project root directory and run:
+```sh
+$ npm run build
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# or
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+$ yarn build
+```
+
+## 💻 Built With
+
+* [React](https://pt-br.reactjs.org) - JavaScript library for building user interfaces;
+* [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript at Any Scale;
+* [Styled Components](https://styled-components.com/) - Visual primitives for the component age;
+* [SweetAlert2](https://sweetalert2.github.io/) - A Beautiful, responsive, customizable, accessible replacement for JavaScript's popup boxes;
+* [Reactstrap](https://reactstrap.github.io) - Bootstrap framework for React;
+* [Iconify](https://iconify.design/) - Unified icons framework;
+
+## 🙋‍♂️ Authors
+
+* **Gabriel P Bernes** - [GitHub](https://github.com/GabrielPeresBernes) | [LinkedIn](https://www.linkedin.com/in/gabriel-peres-bernes/)
+
+<!-- Markdown link & img -->
+[react-badge]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/GabrielPeresBernes/Sindigraf-Web/master/package.json&label=react&query=$['dependencies']['react']&color=green
+[typescript-badge]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/GabrielPeresBernes/Sindigraf-Web/master/package.json&label=typescript&query=$['dependencies']['typescript']&color=green
+[styled-components-badge]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/GabrielPeresBernes/Sindigraf-Web/master/package.json&label=styled-components&query=$['dependencies']['styled-components']&color=green
+[github-top-language-badge]: https://img.shields.io/github/languages/top/GabrielPeresBernes/Sindigraf-Web?color=red
+[github-repo-size-badge]: https://img.shields.io/github/repo-size/GabrielPeresBernes/Sindigraf-Web?color=orange
+[linkedin-badge]: https://img.shields.io/badge/Dev-Gabriel%20P%20Bernes-blue?style=flat&logo=Linkedin&logoColor=white
