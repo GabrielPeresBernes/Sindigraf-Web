@@ -67,8 +67,8 @@ $ yarn build
 
 <!-- Markdown link & img -->
 [react-badge]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/GabrielPeresBernes/Sindigraf-Web/master/package.json&label=react&query=$['dependencies']['react']&color=green
+[github-top-language-badge]: https://img.shields.io/github/languages/top/GabrielPeresBernes/Dolphin-Web-3?color=red
+[github-repo-size-badge]: https://img.shields.io/github/repo-size/GabrielPeresBernes/Dolphin-Web-3?color=orange
 [typescript-badge]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/GabrielPeresBernes/Sindigraf-Web/master/package.json&label=typescript&query=$['dependencies']['typescript']&color=green
 [styled-components-badge]: https://img.shields.io/badge/dynamic/json?url=https://raw.githubusercontent.com/GabrielPeresBernes/Sindigraf-Web/master/package.json&label=styled-components&query=$['dependencies']['styled-components']&color=green
-[github-top-language-badge]: https://img.shields.io/github/languages/top/GabrielPeresBernes/Sindigraf-Web?color=red
-[github-repo-size-badge]: https://img.shields.io/github/repo-size/GabrielPeresBernes/Sindigraf-Web?color=orange
 [linkedin-badge]: https://img.shields.io/badge/Dev-Gabriel%20P%20Bernes-blue?style=flat&logo=Linkedin&logoColor=white
